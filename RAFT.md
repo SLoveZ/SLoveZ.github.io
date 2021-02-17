@@ -6,7 +6,7 @@ Allow a collection of machinesto work as a coherent group that can survive the f
 
 ## Resolve three problems
 ### Leader election
-#### Basic
+#### Basics
 - Three states: leader, follower, or candidate
   - The leader handles all client requests (if a client contacts a follower, the follower redirects it to theleader)
   - Followers are passive: they issue no requests ontheir own but simply respond to requests from leadersand candidates.
